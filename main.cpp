@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "Game.h"
+#include "src/include/Game.h"
 
 using namespace std;
 

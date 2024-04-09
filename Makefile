@@ -5,14 +5,14 @@ CXX = g++
 CXXFLAGS = -std=c++11
 
 # Source files
-SRCS = main.cpp Room.cpp Number.cpp Stone.cpp Hole.cpp Person.cpp Dragon.cpp Human.cpp Monster.cpp Game.cpp
+SRCS = main.cpp src/Room.cpp src/Number.cpp src/Stone.cpp src/Hole.cpp src/Person.cpp src/Dragon.cpp src/Human.cpp src/Monster.cpp src/Game.cpp
 
 # Target executable
 TARGET = game
 
 # Default rule to build the target executable
 all: $(SRCS)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $^
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $^ -Iinclude
 
 # Clean rule to remove generated files
 clean:

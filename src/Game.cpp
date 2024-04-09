@@ -1,9 +1,9 @@
-#include "Game.h"
-#include "Stone.h"
-#include "Hole.h"
-#include "Human.h"
-#include "Monster.h"
-#include "Dragon.h"
+#include "include/Game.h"
+#include "include/Stone.h"
+#include "include/Hole.h"
+#include "include/Human.h"
+#include "include/Monster.h"
+#include "include/Dragon.h"
 #include <iostream>
 #include <cstdlib>
 #include <vector>
