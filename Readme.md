@@ -30,7 +30,7 @@ Welcome to our exciting C++ game project! Dive into a world where rooms come ali
 3. **Compile the project** using a C++11 compliant compiler (e.g., GCC or Clang):
 
    ```
-   g++ -std=c++11 -o game main.cpp src/Room.cpp src/Number.cpp src/Stone.cpp src/Hole.cpp src/Person.cpp src/Dragon.cpp src/Human.cpp src/Monster.cpp src/Game.cpp -Iinclude
+   g++ -std=c++11 -o game main.cpp src/Room.cpp src/Number.cpp src/Stone.cpp src/Hole.cpp src/Person.cpp src/Dragon.cpp src/Human.cpp src/Monster.cpp src/Game.cpp -Iinclude -static
    ```
 
    **Pro Tip**: Utilize the provided Makefile for effortless compilation:
@@ -42,7 +42,7 @@ Welcome to our exciting C++ game project! Dive into a world where rooms come ali
 4. **Run the compiled executable**:
 
    ```
-   ./program
+   ./game
    ```
 
 ## Usage
